@@ -9,7 +9,7 @@ Cracking passwords by comparing a SHA-256 hash with plaintext passwords from wor
 gcc rainbow.c -o rainbow -pthread -lcrypto
 ```
 
-## How to use
+## How to use
 
 ```bash
 ./rainbow <path to wordlis to use> <sha256 to compare> 
